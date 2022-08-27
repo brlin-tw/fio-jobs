@@ -1,0 +1,34 @@
+# Test performance of generic flash storage devices
+#
+# Copyright 2021 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com>
+# SPDX-License-Identifier: CC-BY-SA-4.0+
+[global]
+direct=1
+fdatasync=32
+filename=${TEST_FILE}
+iodepth=4
+ioengine=libaio
+offset=16m
+runtime=30
+size=${TEST_SIZE}
+time_based
+
+[seq-read]
+bs=4m
+rw=read
+stonewall
+
+[seq-write]
+bs=4m
+rw=write
+stonewall
+
+[rand-read]
+bs=4k
+rw=randread
+stonewall
+
+[rand-write]
+bs=4k
+rw=randwrite
+stonewall

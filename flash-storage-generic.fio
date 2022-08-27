@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0+
 [global]
 direct=1
-fdatasync=32
 filename=${TEST_FILE}
+end_fsync=1
 iodepth=4
 ioengine=libaio
 offset=16m

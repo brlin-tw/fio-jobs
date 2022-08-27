@@ -4,9 +4,9 @@ Some Flexible I/O Tester job files I worked on
 
 ![GitHub Actions workflow status badge](https://github.com/brlin-tw/fio-jobs/actions/workflows/check-potential-problems.yml/badge.svg "GitHub Actions workflow status") [![pre-commit enabled badge](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white "This project uses pre-commit to check potential problems")](https://pre-commit.com/) [![REUSE Specification compliance badge](https://api.reuse.software/badge/github.com/brlin-tw/fio-jobs "This project complies to the REUSE specification to decrease software licensing costs")](https://api.reuse.software/info/github.com/brlin-tw/fio-jobs)
 
-## Reference
+## References
 
-To be addressed.
+* [Raspberry Pi SD Card Speed Test files](https://gist.github.com/davlgd/5da3d36486a1bd59bc838638cb26f004)
 
 ## Licensing
 

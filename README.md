@@ -6,8 +6,10 @@ Some Flexible I/O Tester job files I worked on
 
 ## References
 
-* [Flexible I/O tester documentation](https://fio.readthedocs.io/)
+* [Flexible I/O tester documentation](https://fio.readthedocs.io/)  
   FIO 的官方說明文件
+* [fio/examples at master · axboe/fio](https://github.com/axboe/fio/tree/master/examples)  
+  FIO 的官方測試設計範例
 * [Raspberry Pi SD Card Speed Test files](https://gist.github.com/davlgd/5da3d36486a1bd59bc838638cb26f004)
 * [flashbench/dd/fio等工具测试sd卡性能_luckywang1103的博客-CSDN博客](https://blog.csdn.net/luckywang1103/article/details/53175368)
 

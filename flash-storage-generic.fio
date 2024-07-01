@@ -6,7 +6,6 @@
 direct=1
 filename=${TEST_FILE}
 end_fsync=1
-iodepth=4
 ioengine=libaio
 offset=16m
 runtime=30
@@ -17,18 +16,22 @@ time_based
 bs=4m
 rw=read
 stonewall
+iodepth=8
 
 [seq-write]
 bs=4m
 rw=write
 stonewall
+iodepth=8
 
 [rand-read]
 bs=4k
 rw=randread
 stonewall
+iodepth=32
 
 [rand-write]
 bs=4k
 rw=randwrite
 stonewall
+iodepth=32
